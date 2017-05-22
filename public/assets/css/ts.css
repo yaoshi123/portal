@@ -1,0 +1,28 @@
+
+.appraisal-forms{height: auto;overflow: hidden;}
+/*左边的框*/
+.complain-left{width: 740px;height: 510px;padding-left: 20px;float: left;}
+.complain-form{height: 556px;}
+.complain-tit{width: 738px;height: 62px;border-bottom:1px dashed #d2d2d2;padding-top: 6px;}
+
+.complain-left-form{width: 700px;height: 324px;padding-left: 40px;}
+.complain-left-form .complain-left-formps{width: 700px;}
+.complain-left-formps p{width: 700px;}
+.complain-left-formps p input{width: 228px;height: 26px;border: 1px solid #c9c9c9;}
+.complain-left-formps p em{color: red;}
+.complain-left-formps p textarea{width: 536px;height: 176px;float: left;overflow: hidden;}
+.complain-tit h2,.complain-tit p{width: 700px;height: 38px;line-height: 38px;font-family: "微软雅黑";font-size: 12px;}
+.complain-tit p{height: 32px;line-height: 0;}
+.appraisal-form-cont div p{clear: both;}
+/*提交按钮*/
+.complain-finish{width: 700px;padding-left: 200px;margin-top: 0;}
+#complain-finish{position: absolute;top: 200px;display: none;}
+#complain-finish a{background: #666;}
+/*右边的框*/
+.complain-right{float: left;width: 316px;height: 474px;margin: 18px 0 0 18px;border: 1px solid #0da388;}
+.complain-right h2{width: 316px;height: 40px;background: #e5e5e5;text-align: center;line-height: 40px;font-family: "微软雅黑";font-size: 16px;font-weight: 900;color: #0ba38a;}
+.complain-right p{width: 284px;height: 112px;margin: 10px 0 0 16px;line-height: 24px;font-size: 12px;font-family: "微软雅黑";}
+/**/
+.appraisal-con ul li:nth-child(5){-webkit-box-flex: .1; -moz-box-flex: .1;-ms-flex: 2;-o-box-flex: .1;box-flex: .1;} 
+#complaintContent p:not(.appraisal-con-tit1){/*background: pink;*/width: 308px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding-left: 90px;}
+#complaintContent p:not(.appraisal-con-tit1):hover{color: red;cursor: pointer;}

@@ -1,0 +1,167 @@
+/******************************************carousel******************************************/
+#carousel{height: 556px;padding-top: 39px;}
+.carousel{width: 1200px;height: 556px;margin: 0 auto;}
+.carousel .carousel-left{width: 800px;height: 556px;float: left;}
+.carousel-left .box{
+    width: 800px;
+    height: 360px;
+    position: relative;
+
+}
+.carousel-left  .screen{
+    overflow: hidden;
+    width: 800px;
+    height: 360px;
+    position: relative;
+}
+.carousel-left .screen ul{
+    position: absolute;
+    width: 4000px;
+}
+ .carousel-left  .screen ul li img{
+    width: 800px;
+    height: 360px;
+}
+.carousel-left  .screen ul li{
+    float: left;
+    width: 800px;
+    height: 360px;
+}
+.carousel-left  .box ol{
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+}
+.carousel-left  .box ol li{
+    float: left;
+    width: 90px;
+    height: 4px;
+    margin-left: 10px;
+    background: #cccccc;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.carousel-left  .box ol .current{
+    background: red;
+}
+
+.pre{
+    position: absolute;
+    left: 37px;
+    top: 155px;
+    width: 50px;
+    height: 50px;
+    background: rgba(9,168,140,0.3);
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.next{
+    position: absolute;
+    right: 37px;
+    top: 155px;
+    width: 50px;
+    height: 50px;
+    background: rgba(9,168,140,0.3);
+    color: white;
+    font-size: 40px;
+     line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.ledge-list{width: 800px;height: 170px;margin-top: 26px;}
+.ledge-list div{width: 240px;height: 170px;float: left;}
+.ledge-list div p{width: 240px;height: 70px;font-size:20px;font-family:"微软雅黑";font-weight: bold;color: #0ca287;line-height: 60px;text-indent: 18px;}
+.ledge-list .knowledge{background:#f6f6f6 url(../img/knowledge.png)no-repeat 126px 48px;}
+.ledge-list .safety{margin: 0 40px;background:#f6f6f6 url(../img/safety.png)no-repeat 126px 48px;}
+.ledge-list .hand{background:#f6f6f6 url(../img/hand.png)no-repeat 126px 48px;}
+.carousel .carousel-right{width: 360px;height: 534px;background: #f6f6f6;float: right;border: 1px solid #0da388;padding: 20px 0 0 20px;}
+/*房屋鉴定申请*/
+.ido{width: 340px;height: 220px;}
+.ido a{display: block;width: 340px;height: 60px;background:#0da388 url(../img/apply.png) no-repeat 30px 12px;border-radius: 10px;font-size: 28px;font-family: "微软雅黑";line-height: 80px;color: #fff;text-indent: 115px;}
+.ido .upload{margin: 20px 0;background:#0da388 url(../img/upload-bg.png) no-repeat 34px 14px}
+.ido .complaint{background:#0da388 url(../img/complaint.png) no-repeat 34px 14px;}
+/*新闻列表*/
+.new-list{width: 338px;height: 230px;margin-top: 28px;}
+.new-title{width: 338px;height: 26px;color: #0ca287;}
+.new-title b,.new-title a{display: inline-block;width: 190px;font-size: 16px;font-family: "新宋体";text-indent: 5px;}
+.new-list .new-title a{width: 140px;font-size: 15px;color: #0ca287;margin-top: 4px;text-indent: 76px;font-weight: 800;}
+.new-list ul{width: 338px;/*height: 284px;*/}
+.new-list ul li{height: 26px;line-height: 26px;text-indent: 16px;font-size: 14px;background: url(../img/list.png) no-repeat 5px center;font-family: "微软雅黑";color: #000;}
+/******************************************advert******************************************/
+#advert{height: 56px;padding-top: 32px;}
+.advert{width: 1102px;height: 56px;margin: 0 auto;background: #006d81;padding-left: 98px;}
+.advert a{float:left;width: 312px;height: 55px;}
+.advert .advert-pic2{margin: 0 50px 0 70px;}
+/******************************************caseShow******************************************/
+#caseShow{height: 242px;padding-top: 30px;}
+.caseShow-box{width: 1200px;margin: 0 auto;overflow: hidden;}
+.caseShow{width:1300px;height: 242px;}
+.caseShow div{width: 236px;height:184px;float: left;margin-right: 20px;position: relative;overflow: hidden;}
+.caseShow div img{width: 236px;height:184px;border: 0;}
+.caseShow div p{width: 224px;height: 172px;background: rgba(0,0,0,.3);position: absolute;top: 144px;padding:12px 0 0 12px;font-size: 14px;color: #fff;font-family: "微软雅黑";}
+.caseShow .caseShow-tit{width: 175px;height:184px;background: #0da388;font-size: 24px;font-family: "微软雅黑";line-height: 184px;text-align: center;font-weight: 900;color: #fff;}
+/******************************************pressionDrawing*************************************/
+#pressionDrawing{height: 606px;}
+.pressionDrawing{width: 1200px;height: 606px;margin: 0 auto;}
+.pressionDrawing-tit{width: 1200px;height: 50px;background:url(../img/pressionDrawing-p.png) no-repeat left center;text-indent: 42px;font-size: 28px;font-family:"微软雅黑";line-height: 50px;}
+.pressionDrawing-dis{width: 1200px;height: 96px;padding-top: 24px;}
+.pressionDrawing-dis div{width: 360px;height: 96px;float: left;padding-left: 40px;}
+
+.pressionDrawing-dis div p{width: 360px;margin-bottom: 18px;}
+.pressionDrawing-dis div p a{color: #343434;font-size: 12px;margin-right: 13px;}
+.pressionDrawing-dis-tit{font-size: 16px;font-family: "微软雅黑";color: #343434;line-height: 24px;}
+/*图片列表*/
+.pressionDrawing-piclist{width: 1200px;height:362px;margin-top: 14px;}
+.pressionDrawing-piclist div{float: left;}
+.pressionDrawing .pressionDrawing-piclist1{width: 450px;height:362px;;position: relative;overflow: hidden;}
+.pressionDrawing-piclist1 img,.pressionDrawing-piclist1 p{width: 450px;height:362px;}
+.pressionDrawing-piclist1 p,.pressionDrawing-piclist3 p{background: rgba(0,0,0,.3);position: absolute;top: 322px;padding:12px 0 0 12px;font-size: 14px;color: #fff;font-family: "微软雅黑";}
+
+
+/*第二个*/
+.pressionDrawing .pressionDrawing-piclist2{width: 442px;height:362px;margin: 0 14px;;position: relative;overflow: hidden;}
+.pressionDrawing-piclist2 .pressionDrawing-piclist2-top{width: 442px;height: 174px;}
+.pressionDrawing-piclist2-top p{position: absolute;top: 135px;}
+.pressionDrawing-piclist2 .pressionDrawing-piclist2-bott{margin-top: 14px;}
+.pressionDrawing-piclist2-bott .pressionDrawing-piclist2-b1{width: 216px;}
+
+
+/*第三个*/
+.pressionDrawing .pressionDrawing-piclist3{width: 280px;height:362px;background: wheat;position: relative;overflow: hidden;}
+.pressionDrawing .pressionDrawing-piclist3 img{width: 280px;height:362px;}
+.pressionDrawing-piclist3 p{width: 280px;height:362px;top: 322px;}
+/******************************************buildingMaterials********************************/
+#buildingMaterials{height: 604px;}
+.pressionDrawing-piclist1 p span{font-size: 16px;}
+.pressionDrawing-piclist1 p b{font-size: 16px;font-weight: 800;}
+/******************************************decorationCompany*******************************/
+#decorationCompany{height: 542px;position: relative;}
+.decoration-tit{height: 50px;}
+
+.decoration-nav{width: 1200px;height: 50px;margin: 0 auto;}
+.decoration-nav ul{width: 1200px;height: 49px;}
+.decoration-nav ul li{float: left;height: 37px;padding-top:12px ;}
+.decoration-nav ul li a{height: 24px;font-size: 16px;float: left;border-right: 1px solid #c9c9c9;color: #0ba488;padding:0 39px;line-height: 24px;}
+.decoration-nav ul li:hover{background: #0da388;}
+.decoration-nav ul li:hover a{color: #fff;border-right: none;}
+/*轮播*/
+#outer-box{width:1200px;margin: 0 auto;position: relative;}
+#outer{width:1200px;margin: 0 auto;border: 1px solid #e5e5e5;/*height: 338px;*/overflow: hidden;position: absolute;left: 0px;}
+#con1,#con2{float: left;}
+
+#inner{width: 4000px; overflow: hidden;}
+
+
+.decoration-cont{width: 1138px;height: 338px; margin: 0 auto;padding: 40px 0 0 60px;overflow: hidden;}
+.decoration-conts{width: 1214px;height: 248px;}
+.decoration-conts div{width: 102px;float: left;margin-right: 138px;height: 249px;}
+.decoration-conts div p{width: 102px;height: 32px;line-height: 32px;font-size: 12px;}
+#fx{width:640px;height: 60px;margin:0 auto;text-align: center;padding-left: 560px;line-height: 60px;position: absolute;top: 300px;}
+#fx a{float: left;width: 20px;font-size: 28px;margin-right: 20px;font-weight: 900;}
+

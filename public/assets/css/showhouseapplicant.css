@@ -1,0 +1,10 @@
+.showhouseapplicant{
+	width:1160px;height: 780px;background:#333;position: absolute;margin: auto;left: 0;right: 0;top: 0;bottom: 0;padding: 20px;
+}
+ .showhouseapplicant p:nth-child(1){
+	height: 40px;line-height: 40px;font-size: 30px;background: seagreen;margin-right: 0;text-align: right;cursor: pointer;position: absolute;right: 10px;
+}
+ .showhouseapplicant p:nth-child(2), .showhouseapplicant p:nth-child(3), .showhouseapplicant p:nth-child(4), .showhouseapplicant p:nth-child(5), .showhouseapplicant p:nth-child(6),
+ .showhouseapplicant p:nth-child(7), .showhouseapplicant p:nth-child(8), .showhouseapplicant p:nth-child(9), .showhouseapplicant p:nth-child(10),.showhouseapplicant p:nth-child(11){
+	width: 70%;height: 40px;line-height: 40px;font-size: 16px;margin: 0 auto;color: #f2f2f2;
+}

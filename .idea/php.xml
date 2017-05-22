@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpStepFilterConfiguration">
+    <option name="skippedFunctions">
+      <list>
+        <option value="App\Http\Models\User_Info-&gt;login" />
+        <option value="App\Http\Controllers\PublicController-&gt;postUserlogin" />
+        <option value="Illuminate\Routing\Router-&gt;prepareResponse" />
+        <option value="Illuminate\Foundation\Http\Middleware\VerifyCsrfToken-&gt;addCookieToResponse" />
+        <option value="Illuminate\Session\Middleware\StartSession-&gt;handle" />
+        <option value="Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse-&gt;handle" />
+        <option value="Illuminate\Cookie\Middleware\EncryptCookies-&gt;encrypt" />
+        <option value="Illuminate\Routing\Router-&gt;dispatchToRoute" />
+        <option value="Illuminate\Routing\Router-&gt;dispatch" />
+        <option value="Illuminate\Foundation\Http\Kernel-&gt;handle" />
+        <option value="require_once" />
+        <option value="Illuminate\Foundation\Bootstrap\HandleExceptions-&gt;handleShutdown" />
+        <option value="Monolog\Handler\AbstractHandler-&gt;__destruct" />
+        <option value="App\Http\Controllers\PublicController-&gt;getTest" />
+        <option value="Illuminate\Session\Middleware\StartSession-&gt;storeCurrentUrl" />
+      </list>
+    </option>
+  </component>
+</project>

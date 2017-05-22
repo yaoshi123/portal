@@ -1,0 +1,17 @@
+.appraisal-con ul li:nth-child(7){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 4;-o-box-flex: 1;box-flex: 1;}
+#uploadForm{-webkit-box-orient: horizontal;-moz-box-orient: horizontal;-o-box-orient: horizontal;box-orient: horizontal;}
+
+.uploadForm input{ vertical-align:middle; margin:0; padding:0;}
+.file-box{ position:relative;}
+.txt{ height:22px; border:1px solid #cdcdcd; width:180px;}
+.btn{ background-color:#FFF; border:1px solid #CDCDCD;height:24px; width:70px;}
+.file{ position:absolute;display: none;/* top:0;*/ right:166px; height:24px; filter:alpha(opacity:0);opacity: 0;width:230px ;left: 13px;}
+
+
+
+
+.edit{color: #3c94d4;}
+/*.upload2{width: 20px;height: 20px;background: #666;color: #000;margin-left: 18px;}*/
+#hide-div{width: 100%;min-height:200px;height:auto!important;height:200px;background: rgba(216,216,216,.3);position: absolute;top: 0;left: -1600px;z-index: 999;overflow: auto;}
+#hide-div p{width: 100%;position: relative;}
+#hide-div p a{width: 50px;height: 50px;background: cornflowerblue;display: block;line-height: 50px;text-align: center;font-size: 20px;position: absolute;top: 50%;left: 50%;margin-top: 25px;margin-left: 300px;border-radius: 50%;}

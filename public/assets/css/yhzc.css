@@ -1,0 +1,57 @@
+#registration{width: 100%;height:914px;margin-bottom: 32px;}
+.registration{width: 1200px;height: 904px;margin: 0 auto;padding-top: 10px;}
+.registration h2{width: 1200px;height: 30px;text-indent: 2px;line-height: 30px;color: #7f7f7f;font-size: 12px;}
+.registration-cent{width: 1196px;height: 870px;border: 2px solid #d9d9d9;}
+
+
+.registration-c-left{width: 936px;height: 870px;float: left;}
+.registration-c-left p{width: 936px;height: 90px;margin: 0 0 0 -100px;}
+.registration-c-left p span{display: block;width: 278px;height: 90px;margin: 0 auto;}
+.registration-c-left p span a{float: left;width: 88px;height: 18px;text-indent: 32px;background: url(../img/dl-radio2.png)no-repeat left center;margin: 36px 0;font-size: 12px;font-family: "微软雅黑";color: #666666;font-weight: 700;margin-right: 50px;}
+.registration-c-left p span .dl-radio1{background: url(../img/dl-radio1.png)no-repeat left center;}
+ 
+.registration-c-left .registration-form{display:block;width: 936px;height: 454px;background:url(../img/form-bg.png) no-repeat right 83px;}
+/*所有的dl*/
+.registration-form div dl dd,.registration-form div dl dt{float: left;}
+.registration-form div dl dt span{color: red;margin-right: 5px;}
+.registration-form div dl dd input{width: 262px;height: 38px;border:none;border: 1px solid #9aaba5;padding: 0;margin: 0;}
+.registration-form div dl dd em{float: right;width: 256px;background: url(../img/span-bg.png) no-repeat;background-size:cover ;margin: 8px 0 0 8px;color: red;text-align: center;line-height:25px;text-justify: none;font-style: normal;display: none;text-indent: 12px;}
+/*用户名*/
+.registration-form div:nth-child(1),.registration-form div:nth-child(2){width: 936px;height: 45px;}
+.registration-form div dl{width: 606px;height:45px;margin: 0 auto;line-height: 45px;margin-left: 170px;}
+/*请设置密码*//*请确认密码*/
+/*.registration-form div:nth-child(2),.registration-form div:nth-child(3){background: whitesmoke;}*/
+.registration-form div:nth-child(2),.registration-form div:nth-child(4){margin: 28px 0;}
+.registration-form div:nth-child(2) dl,.registration-form div:nth-child(3) dl{width: 787px;margin-left: 146px;}
+/*手机号码*/
+.registration-form div:nth-child(4) dl{width: 622px;margin-left: 158px;}
+/*手机验证码*/
+.registration-form div:nth-child(5){width: 936px;height: 45px;}
+.registration-form div:nth-child(5) dl{width: 370px;margin-left: 146px;}
+.registration-form div:nth-child(5) dl dd input{width: 128px;}
+.registration-form div:nth-child(5) dl dd a{float:right;width: 128px;height: 38px;background: #eee;background-size:cover ;margin:2px 0 0 5px;border: 1px solid #cccccc;text-align: center;}
+/*同意条款，并注册*/
+.registration-form div:nth-child(6){width: 936px;height: 40px;padding-top: 40px;}
+.registration-form div:nth-child(6) a{display: block;width: 200px;height: 40px;background: #0081cc;text-align: center;line-height: 40px;color: #fff;font-size: 16px;font-family: "微软雅黑";font-weight: 800;margin: 0 auto;}
+/*两个表单*/
+.registration-c-left form{display: none;}
+/*注册条款*/
+.clause{width: 936px;height: 248px;}
+.clause-cen{width: 756px;height: 244px;background: #eeeeee;border: 1px solid #d8d8d8;margin-left: 148px;}
+.clause-cen h2{width: 756px;height: 26px;font-size: 12px;color: #666666;text-align: center;line-height: 26px;}
+.clause-cen div{width: 736px;height: 204px;margin: 3px auto 0;padding: 8px 0 0 8px;overflow:auto;background: #fff;}
+.clause-cen div p{color: #808080;font-size: 14px;width: 760px;min-height: 20px;height:auto!important;height:20px;line-height: 20px;font-family: "微软雅黑";margin-left: 0;}
+
+/*已有账号，立即登录*/
+.registration-c-right{width: 260px;height: 680px;float: left;padding-top: 100px;}
+.registration-c-right p{width: 260px;height: 44px;text-align: center;line-height: 44px;font-size: 12px;color: #9a9a9a;font-family: "微软雅黑";}
+/*登录*/
+.registration-c-right p:nth-child(2){height: 30px;}
+.registration-c-right p:nth-child(2) a{display: block;width: 150px;height: 30px;text-align: center;line-height: 30px;font-size: 14px;color: #fff;font-family: "微软雅黑";margin: 0 auto 20px;background: #007fcc;border-radius: 4px;}
+/*其他方式直接登录*/
+.registration-c-right p:nth-child(3){height: 36px;color: #989898;line-height: 36px;margin-top: 20px;}
+/*qq微信登录*/
+.registration-c-right p:nth-child(4){height: 16px;}
+.registration-c-right p:nth-child(4) a{float: left;width: 72px;height: 16px;background: url(../img/qq.png) no-repeat left center;line-height: 16px;font-size: 12px;font-family: "微软雅黑";color: #989898;text-indent: 18px;}
+.registration-c-right p:nth-child(4) .dl-qq{margin: 0 14px 0 54px;}
+.registration-c-right p:nth-child(4) .dl-weix{background: url(../img/weixin.png) no-repeat left center;;}

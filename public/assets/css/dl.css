@@ -1,0 +1,49 @@
+#signIn{width: 100%;height: 444px;margin-bottom: 150px;}
+.signIn{width: 1200px;height: 434px;margin: 0 auto;padding-top: 10px;}
+.signIn h2{width: 1200px;height: 30px;line-height: 30px;font-size: 12px;text-indent: 2px;font-family: "宋体";color: #666666;}
+.signIn-form{width: 1198px;height: 402px;border: 1px solid #d8d8d8;}
+/******************************************单选按钮***********************************/
+
+.signIn-form p:nth-child(1){width: 1198px;height: 90px;margin-top: 14px;overflow: hidden;}
+.signIn-form p:nth-child(1) span{display: block;width: 278px;height: 90px;margin: 0 auto;}
+
+.signIn-tab1 p:nth-child(1) span,.signIn-tab1 p:nth-child(2) span,.signIn-tab1 p:nth-child(3) span,.signIn-tab1 p:nth-child(5) span{display: block;width: 278px;height: 90px;margin: 0 auto;}
+.signIn-form p:nth-child(1) span a,.signIn-tab1 p:nth-child(5) span a{float: left;width: 88px;height: 18px;text-indent: 32px;background: url(../img/dl-radio2.png)no-repeat left center;margin: 36px 0;font-size: 12px;font-family: "微软雅黑";color: #666666;font-weight: 700;margin-right: 50px;}
+.signIn-form p:nth-child(1) span .dl-radio1{background: url(../img/dl-radio1.png)no-repeat left center;}
+
+
+
+/*用户名*/
+.signIn-form .signIn-tab1{display: block;margin: 0 auto;}
+.signIn-tab1 p:nth-child(1),.signIn-tab1 p:nth-child(2){width: 1198px;height: 40px;line-height: 40px;font-size: 12px;}
+.signIn-tab1 p:nth-child(1) span,.signIn-tab1 p:nth-child(2) span,signIn-tab1 p:nth-child(3) span{width:440px;height: 40px;margin: 0 auto;/*background: palegoldenrod;*/position: relative;}
+.signIn-tab1 p:nth-child(1) span input,.signIn-tab1 p:nth-child(2) span input{float: left;width: 262px;height: 36px;border: 1px solid #cccccc;}
+.signIn-tab1 p:nth-child(1) span label{float: left;width: 56px;}
+.signIn-tab1 p span em{color: red;width: 100px;display: none;float: right;height: 40px;}
+/*密码*/
+.signIn-tab1 p:nth-child(2){margin-top: 20px;/*background: forestgreen;*/}
+.signIn-tab1 p:nth-child(2) span label{float: left;width: 66px;}
+/*验证码*/
+.signIn-tab1 p:nth-child(3){width: 1198px;height: 60px;/*background: aqua;*/line-height: 60px;}
+.signIn-tab1 p:nth-child(3) span{height: 60px;/*background: red;*/position: relative;width: 466px;}
+.signIn-tab1 p:nth-child(3) span label{float: left;width: 130px;height: 36px;}
+.signIn-tab1 p:nth-child(3) span input{float: left;width: 130px;height: 36px;border: 1px solid #cccccc;position: absolute;top: 50%;left: 23%;margin-top: -18px;margin-left: -50px;}
+.signIn-tab1 p:nth-child(3) span a{float: right;width: 130px;height: 36px;font-size: 16px;font-family: "宋体";color: #999;position: absolute;top: 50%;right: 31%;margin-top: -18px;margin-left: -35px;text-align: center;line-height: 36px;border: 1px solid #cccccc;}
+.signIn-tab1 p:nth-child(3) span a img{width: 130px;height: 36px;}
+/*忘记密码 免费注册*/
+.signIn-tab1 p:nth-child(4){width: 1198px;height: 60px;}
+.signIn-tab1 p:nth-child(4) span{width: 266px;height: 60px;display: block;}
+.signIn-tab1 p:nth-child(4) span a{float: left;width: 70px;height: 12px;margin: 24px 0;font-size: 12px;font-family: "宋体";color: #999;}
+.signIn-tab1 p:nth-child(4) span .free{float: right;}
+.signIn-tab1 p:nth-child(4) span a:hover{color: #0082ca;}
+/*登录*/
+.signIn-tab1 p:nth-child(5){width: 1198px;height: 40px;}
+.signIn-tab1 p:nth-child(5) a{display: block;width: 264px;height: 40px;background: #0081cc;margin: 0 auto;text-align: center;line-height: 40px;font-size: 14px;font-family: "微软雅黑";font-weight: 900;color: #fff;}
+
+/*微信 qq*/
+/*.signIn-tab1 p:nth-child(5){width: 1198px;height: 62px;}*/
+/*.signIn-tab1 p:nth-child(5) span{width: 152px;height: 18px;line-height: 18px;margin-left: 515px;}*/
+/*.signIn-tab1 p:nth-child(5) span a{width: 64px;height: 16px;background: url(../img/qq.png)no-repeat left center;}*/
+/*.signIn-tab1 p:nth-child(5) span .dl-weix{background: url(../img/weixin.png) no-repeat left center;}*/
+/*signIn-tab2*/
+.signIn-form div{display: none;}

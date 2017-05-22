@@ -1,0 +1,58 @@
+body,html{width: 100%;height: 100%;}
+
+/***************************appraisal*************************************/
+#appraisal{width: 100%;min-height: 200px;height: auto!important;height: 200px;}
+.appraisal{width: 1200px;min-height: 200px;height: auto!important;height: 200px;margin: 0 auto;position: relative;/*z-index: -5;*/}
+.appraisal-form,.appraisal-tab,.appraisal-list{width: 1200px;}
+.appraisal-form{height: 414px;}/**/
+.appraisal-forms{width: 1160px;height: 390px;border: 20px solid #0da388;border-top: none;margin-top: 38px;z-index: -5;/*background: #007FCC;*/}
+.appraisal-form-tit{width: 1140px;height: 24px;padding-left: 20px;}
+.appraisal-form-tit p{width: 1126px;height: 23px;border-bottom: 1px dashed #d2d2d2;font-size: 16px;font-family: "微软雅黑";line-height: 23px;font-weight: 900;color: #0082cd;}
+
+.appraisal-form-cont{width: 1100px;height: 240px;margin-top: 42px;padding-left: 60px;overflow: hidden;}
+.appraisal-form-cont div{width: 908px;height: 240px;}
+.appraisal-form-cont div p{float: left;margin:0 0 10px 0;}
+.appraisal-form-contp{width: 454px;height: 28px;font-size: 12px;line-height: 28px;}
+.appraisal-form-contp1{width: 908px;text-indent: 13px;}
+.appraisal-form-contp input,.appraisal-form-contp select{width: 230px;height: 24px;color: #333333;border: 1px solid #c9c9c9;}
+
+.appraisal-form-contp em{display: inline-block;color: red;display: none;}
+.appraisal-form-contp1 input,.appraisal-form-contp1 select{width: 325px;}
+/*提交*/
+.finish{width: 757px;height: 72px;margin-top: 15px;padding: 18px 0 0 403px;}
+.finish a,#complain-finish a{display: block;width: 360px;height: 40px;background: #0081cc;line-height: 40px;text-align: center;font-size: 16px;color: #fff;font-weight: 900;font-family: "微软雅黑";}
+/*提交成功*/
+.successfully{display: none;position: absolute;top: 60px;left: 20px;}
+.successfully a{background: #666;/*top: 338px;*/}
+/*鉴定申请列表*/
+.appraisal-tab{min-height: 200px;height: auto!important;height: 200px;margin: 40px 0 30px 0;}
+.appraisal-tab h2,.appraisal-list h2{width: 1200px;height: 42px;background: #0da388;line-height: 42px;text-indent: 20px;font-family: "微软雅黑";font-weight: 900;color: #fff;}
+/*分页*/
+.paging{width: 1200px;height: 30px;/*background: red;*/margin-bottom: 30px;overflow: hidden;}
+#paging1{margin-top: 30px;}
+.paging p{width: 595px;height: 30px;/*background: lawngreen;*/margin: 0 auto;line-height: 28px;}
+.paging p a{float: left;border: 1px solid #cdcdcd;padding: 0 10px;margin-right: 10px;font-size: 12px;font-family: "微软雅黑";}
+.paging p a:nth-child(1),.paging p a:nth-child(7){border: none;}
+
+/*总数*/
+.paging p a:nth-child(1){cursor :default;}
+.paging p a:nth-child(6){margin-right: 0;}
+/*.paging p a:nth-child(7){padding: 0;}*/
+/*鉴定单位列表*/
+.appraisal-list{min-height: 200px;height: auto!important;height: 200px;}
+.appraisal-con{width: 1198px;min-height: 200px;height: auto!important;height: 200px;border: 1px solid #dcdcdc;border-top:none;padding-top: 15px;}
+.appraisal-con ul{width: 100%;display: -webkit-box;display: -moz-box;display: -ms-flexbox;-webkit-box-orient: horizontal;-moz-box-orient: horizontal;-o-box-orient: horizontal;box-orient: vertical;}
+.appraisal-con ul li{border-bottom: 1px dashed #e5e5e5;padding-top: 12px;}
+.appraisal-con ul li:nth-child(1){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;}
+.appraisal-con ul li:nth-child(2){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;}
+.appraisal-con ul li:nth-child(3){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;}
+.appraisal-con ul li:nth-child(4){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;}
+.appraisal-con ul li:nth-child(5){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;} 
+.appraisal-con ul li:nth-child(6){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;}
+.appraisal-con ul li:nth-child(7){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;}
+.appraisal-con ul li:nth-child(8){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;}
+.appraisal-con ul li:nth-child(9){-webkit-box-flex: 1; -moz-box-flex: 1;-ms-flex: 1;-o-box-flex: 1;box-flex: 1;}
+.appraisal-con ul li p,.appraisal-con ul li form{width: 100%;height: 48px;border-bottom: 1px dashed #e5e5e5;padding-top: 15px;font-size: 13px;font-family: "微软雅黑";text-align: center;}
+.appraisal-con ul li p:last-child{border-bottom: none;}
+.appraisal-con .appraisal-con-tit .appraisal-con-tit1{background: #eeeeee;line-height: 48px;border-bottom: none;padding-top: 0px;}
+

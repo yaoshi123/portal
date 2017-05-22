@@ -1,0 +1,23 @@
+# 定义 stages
+stages:
+  - test
+  - build
+  
+
+# 单元测试
+jobUnitTest:
+  stage: test
+  script:
+    - echo "单元测试"
+    - php -v
+
+# 构建
+jobBuild:
+  stage: build
+  script:
+    - echo "构建"
+  artifacts:
+    paths:
+    - target/csportal
+  tags:
+    - php

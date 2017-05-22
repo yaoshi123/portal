@@ -1,0 +1,28 @@
+#malpractice{width: 100%;/*height: 2517px;*/margin:  40px 0 58px 0;}
+.malpractice{width: 1164px;/*height: 2480px;*/margin: 0 auto;border: 18px solid #0da388;}
+.malpractice-c{width: 1000px;/*height: 2406px;*/box-shadow: 0px 0px 5px 20px rgba(219,219,219,1);margin: 18px auto;padding: 40px 64px 0;}
+/**/
+.malpractice-c h2{width: 1000px;height: 118px;border-top: 1px solid #999999;text-align: center;line-height: 118px;color: #0ba486;font-size: 20px;font-family: "微软雅黑";}
+.malpractice-p{width: 1000px;height: 39px;border-bottom: 1px solid #cccccc;background: #f3f3f3;text-align: center;line-height: 39px;font-size: 16px;color: #333;margin-bottom: 30px;}
+.malpractice-p input{border: none;background: #f3f3f3;font-size: 16px;text-decoration: underline;}
+/*表格*/
+
+.malpractice-c table tr{text-indent: 10px;}
+.malpractice-c table td{font-size: 14px;font-family: "微软雅黑";font-weight: 600;padding: 0;width:200px;}
+.malpractice-c table td label{display: block;width: 110%;}
+.malpractice-c table td input{display: block;}
+.malpractice-c table td input,.malpractice-c table td textarea{border: none;font-size: 18px;font-family: "仿宋";}
+.malpractice-c table td textarea{line-height: 18px;padding-top: 18px;resize: none;overflow: auto;}
+.malpractice-c table .tr-p{padding-top: 18px;}
+.tr-p p{width: 582px;font-size: 12px;color: #666666;height: 25px;line-height: 25px;}
+.tijiao,.nextPage-a,.successfully{display: block;width: 360px;height: 40px;background: #0081cc;margin: 0 auto;text-align: center;line-height: 40px;color: #fff;font-size: 18px;font-family: "微软雅黑";}
+/*上一页 提交*/
+
+.tijiao span:nth-child(2){margin-left: 70px;}
+.tijiao span:hover{color: red;}
+
+/*下一页*/
+.malpractice .malpractice-c .nextPage{width: 1000px;height: 84px;margin: 50px auto 0;clear: both;}
+/*信息提交成功*/
+.nextPage .successfully{position: fixed;display:none;margin: auto;top: 0;right:0;bottom:0;left: 0;}
+.nextPage .tijiao{display: none;}

@@ -1,0 +1,22 @@
+#worker,.worker{width: 100%;min-height: 200px;height: auto!important;height: 200px;}
+.worker{width: 1174px;margin: 24px auto 464px;}
+.worker div{float: left;}
+
+.profile,.groom{width: 834px;min-height: 80px;height: auto!important;height: 80px;}
+
+.profile{width: 814px;border: 1px solid #e5e5e5;padding:0 0 60px 20px;}
+.profile h2{width: 800px;height: 82px;text-align: center;line-height: 82px;font-family: "微软雅黑";color: #0081cc;font-size: 16px;font-weight: 900;border-bottom: 1px dashed #d2d2d2;margin-bottom: 20px;}
+.profile p{text-indent: 30px;width: 800px;font-size: 12px;line-height: 25px;margin-bottom: 16px;}
+
+/*右侧*/
+.groom{width: 318px;margin-left: 18px;}
+/*推荐鉴定单位*/
+.checkup{width: 316px;height: 280px;border: 1px solid #0da388;}
+.checkup h2{width: 316px;height: 40px;background: #e5e5e5;text-indent: 18px;line-height: 40px;font-size: 15px;color: #0ba488;font-family: "微软雅黑";}
+.checkup ul{margin-top: 4px;width: 298px;height:228px;padding-left: 18px;}
+.checkup ul li{width: 298px;height:30px;background: url(../img/list.png)no-repeat left center;line-height: 30px;font-size: 12px;font-family: "微软雅黑";text-indent: 10px;}
+/*推荐装修公司*/
+.fitment{margin-top: 18px;}
+.fitment ul{margin-top: 20px;width: 285px;height:122px;padding-left: 12px;overflow: hidden;}
+.fitment ul li{width: 300px;height: 52px;}
+.fitment ul li img{height: 52px;width: 136px;float: left;margin:0  12px 18px 0;}

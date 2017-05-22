@@ -1,0 +1,179 @@
+#registration{width: 100%;/*height:914px;margin: 32px 0;*/}
+
+
+.registration-c-left{width: 500px;/*height: 870px;*/float: left;}
+.registration-c-left p{width: 500px;height: 90px;margin: 0 0 0 -100px;}
+ 
+.registration-c-left .registration-form{display:block;width: 500px;height: 454px;background:url(../img/form-bg.png) no-repeat right 83px;}
+/*所有的dl*/
+.registration-form div dl dd,.registration-form div dl dt{float: left;}
+.registration-form div dl dt span{color: red;margin-right: 5px;}
+.registration-form div dl dd input{width: 262px;height: 38px;border:none;border: 1px solid #9aaba5;padding: 0;margin: 0;text-indent: 12px;}
+.registration-form div dl dd em{float: right;/*width: 256px;background: url(../img/span-bg.png) no-repeat;background-size:cover ;*/margin: 8px 0 0 8px;color: #0081cc;text-align: center;line-height:25px;text-justify: none;font-style: normal;/*display: none;text-indent: 12px;*/cursor: pointer;}
+/*用户名*/
+.registration-form div:nth-child(1),.registration-form div:nth-child(2){width: 500px;height: 45px;/*background: darkcyan;*/}
+.registration-form div dl{width: 500px;height:45px;margin: 0 auto;line-height: 45px;/*margin-left: 170px;background: pink;*/}
+.registration-form div:nth-child(2),.registration-form div:nth-child(4){margin: 28px 0;}
+/*验证手机*/
+#registration .registration-form .old-phone-box{width: 806px;}
+
+/**/
+
+/*old-phone-code*/
+#old-phone-code,#new-phone-Ncode,#old-email-code,#new-email-Ncode{background: #F5F5F5;margin-left: 18px;padding: 0 22px;border: 1px solid #cccccc;height: 38px;line-height: 38px;cursor: pointer;}
+/*同意条款，并注册*/
+.registration-form div:nth-child(4){width: 500px;height: 40px;padding-top: 40px;}
+.registration-form div:nth-child(4) a{display: inline-block;width: 200px;height: 40px;background: #0081cc;text-align: center;line-height: 40px;color: #fff;font-size: 16px;font-family: "微软雅黑";font-weight: 800;margin: 0 0 0 90px ;border-radius: 5px;}
+/*上一步*/
+.registration-form .Phone-save{width: 950px;padding-left: 250px;}
+.registration-form .Phone-save-s{padding-left: 200px;}
+.registration-form .Phone-save .ps{margin: 0 auto;}
+/*下一步*/
+/*两个表单*/
+.registration-c-left form{display: none;}
+
+
+/*头像的显示*/
+.registration-c-right{width: 260px;/*height: 680px;*/float: left;padding-top: 100px;}
+.registration-c-right p{width: 260px;height: 44px;text-align: center;line-height: 44px;font-size: 12px;color: #9a9a9a;font-family: "微软雅黑";}
+/*头像的现实位置*/
+.registration-c-right p:nth-child(1),.registration-c-right p:nth-child(1) img {height: 88px;width: 88px;margin: 0 auto;border-radius: 7px;}
+/*.registration-c-right p:nth-child(1) img{height: 88px;width: 88px;}*/
+/*修改头像*/
+/**/.registration-c-right .avatar{height: 30px;margin-top: 38px;}
+.registration-c-right p:nth-child(2) a{display: block;width: 150px;height: 30px;text-align: center;line-height: 30px;font-size: 14px;color: #fff;font-family: "微软雅黑";margin: 0 auto 20px;background: #007fcc;border-radius: 4px;}
+/**/
+.container {
+	display: none;
+	width: 400px;
+	margin: 40px auto 0 auto;
+	position: relative;
+	font-family: 微软雅黑;
+	font-size: 12px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.container p {
+	line-height: 12px;
+	line-height: 0px;
+	height: 0px;
+	margin: 10px;
+	color: #bbb
+}
+.action {
+	width: 400px;
+	height: 30px;
+	margin: 10px 0;
+}
+.cropped {
+	position: absolute;
+	right: -230px;
+	top: 0;
+	width: 200px;
+	border: 1px #ddd solid;
+	height: 460px;
+	padding: 4px;
+	box-shadow: 0px 0px 12px #ddd;
+	text-align: center;
+	background:#666;
+}
+.imageBox {
+	position: relative;
+	height: 400px;
+	width: 400px;
+	border: 1px solid #aaa;
+	background: #fff;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	cursor: move;
+	box-shadow: 4px 4px 12px #B0B0B0; 
+}
+.imageBox .thumbBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+	box-sizing: border-box;
+	border: 1px solid rgb(102, 102, 102);
+	box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+	background: none repeat scroll 0% 0% transparent;
+}
+.imageBox .spinner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	line-height: 400px;
+	background: rgba(0,0,0,0.7);
+}
+.Btnsty_peyton{ float: right;
+   width: 66px;
+  display: inline-block;
+  margin-bottom: 10px;
+  height: 57px;
+  line-height: 57px;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin:0px 2px;
+  background-color: #f38e81;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #B0B0B0;
+  border: 0px #fff solid;}
+/*选择文件上传*/
+.new-contentarea {
+	width: 165px;
+	overflow:hidden;
+	margin: 0 auto;
+	position:relative;float:left;
+}
+.new-contentarea label {
+	width:100%;
+	height:100%;
+	display:block;
+}
+.new-contentarea input[type=file] {
+	width:188px;
+	height:60px;
+	background:#333;
+	margin: 0 auto;
+	position:absolute;
+	right:50%;
+	margin-right:-94px;
+	top:0;
+	right/*\**/:0px\9;
+	margin-right/*\**/:0px\9;
+	width/*\**/:10px\9;
+	opacity:0;
+	filter:alpha(opacity=0);
+	z-index:2;
+}
+a.upload-img{
+	width:165px;
+	display: inline-block;
+	margin-bottom: 10px;
+	height:57px;
+	line-height: 57px;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #f38e81;
+	border-radius: 3px;
+	text-decoration:none;
+	cursor:pointer;
+	border: 0px #fff solid;
+	box-shadow: 0px 0px 5px #B0B0B0;
+}
+a.upload-img:hover{
+	background-color: #ec7e70;
+}
+
+.tc{text-align:center;}

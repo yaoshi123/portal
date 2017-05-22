@@ -1,0 +1,14 @@
+.signIn-form{position: relative;}
+
+.signIn-tab1 p:nth-child(1) span{width:576px;height: 40px;/*background: saddlebrown;*/}
+.signIn-tab1 p:nth-child(1) span label{width: 78px;}
+.signIn-tab1 p:nth-child(1) span input{width: 260px;margin-right: 20px;}
+.signIn-tab1 p:nth-child(1) span em{width: 212px;}
+.signIn-tab1 p:nth-child(1) span .btn-fs{width: 90px;cursor: pointer;}
+/*验证码*/
+.signIn-tab1 p:nth-child(2){margin-bottom: 20px;}
+.signIn-tab1 p:nth-child(2) span label{width: 84px;}
+.signIn-tab1 p:nth-child(2) span em{width: 170px;}
+.signIn-tab1 p:nth-child(3){width: 1198px;height: 40px;}
+.signIn-tab1 p:nth-child(3) a{display: block;width: 264px;height: 40px;background: #0081cc;margin-left: 390px;text-align: center;line-height: 40px;font-size: 14px;font-family: "微软雅黑";font-weight: 900;color: #fff;}
+.signIn-tab1 p:nth-child(4){width: 1px;height: 40px;position: absolute;left: 300px;top: 130px;color: #e43518;}
